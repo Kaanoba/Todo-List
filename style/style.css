@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(255, 120, 120);
+}
+* ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background-color: aliceblue;
+    height: 40px;
+    border-radius: 10px;
+}
+
+header .head{
+    line-height: 40px;
+}
+
+header .header-title{
+    margin-left: 40px;
+}
+
+main{
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+
+.box-header{
+    background-color: aliceblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    height: 80px;
+    line-height: 80px;
+}
+.box-header h1{
+    display: inline;
+}
+.box-middle{
+    background-color: rgb(65, 65, 65);
+    width: 50%;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-height: 50px;
+    line-height: 50px;
+    padding: 10px;
+    
+    margin-bottom: 40px;
+}
+a{
+    text-decoration: none;
+    color: rgb(92, 142, 185);
+}
+.btn{
+    
+    border-radius: 10px;
+    padding: 6px 5px;
+}
+
+.taskName{
+    border-radius: 10px;
+    border: none;
+    padding: 9px 5px;
+    width: 50%;
+}
+
+.right{
+   margin-left: 300px;
+}
+
+@media screen and (max-width: 1650px){
+    .right{
+        margin-left: 100px;
+    }
+}
+
+
+
+
+
+
+
+.right2{
+    margin-left: 570px;
+}
+
+@media screen and (max-width: 1600px) {
+    .right2{
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .right2{
+        margin-left: 50px;
+    }
+}
+
+.a-link{
+    margin-left: 455px;
+    display: inline;
+}
+
+@media screen and (max-width: 1600px) {
+    .a-link{
+        margin-left: 112px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .a-link{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:909px) {
+    .a-link{
+        display: inline-block;
+    }
+}
+
+.btn-yellow{
+    background-color: rgb(167, 167, 167);
+    color: white;
+}
+
+.btn-blue{
+    background-color: rgb(88, 88, 255);
+    color: white;
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+}
+
+.btn-purple{
+    background-color: rgb(10, 170, 10);
+    color: white;
+}
+
+.mini-box{
+    background-color: white;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+    line-height: 30px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/todo-list/style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <header>
+        <div class="head">
+            <h2 class="header-title">To Do List</h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-desk">
+            <div class="box-1">
+                <div class="box-header">
+                    <h1>Create Task</h1>
+                </div>
+                <div class="box-middle">
+                    <input  placeholder="Add Task.." class="taskName" type="text" name="taskName" id="taskName">
+                    <a id="btnAddTaskList" class="btn right btn-blue" href="javascript:void(0)">Add Task List</a>
+                </div>
+            </div>
+            <div class="box-2">
+                <div class="box-header">
+                    <h1>Task List</h1>
+                    <div class="a-link">
+                        <a  class="btn btn-blue" href="javascript:void(0)" id="btnCompletedTask">Completed</a>
+                        <a  class="btn btn-red" href="javascript:void(0)" id="btnRemoveTask">Listeden Çıkar</a>
+                        <a  class="btn btn-purple" href="javascript:void(0)" id="btnSelectAll">Select the All</a>
+                    </div>
+                    
+                </div>
+                <div class="box-middle" id="taskListDiv">
+
+                    <!-- 
+                    <div class="mini-box">
+                        <input type="checkbox" name="check" id="selectTask2">
+                        <label for="selectTask2">Lorem ipsum dolor sit amet.</label>
+                    </div>
+                    <div class="mini-box">
+                        <input type="checkbox" name="check" id="selectTask3">
+                        <label for="selectTask3">Lorem ipsum dolor sit amet.</label>
+                    </div>
+                    <div class="mini-box">
+                        <input type="checkbox" name="check" id="selectTask4">
+                        <label for="selectTask4">Lorem ipsum dolor sit amet.</label>
+                    </div>
+                    -->
+                </div>
+            </div>
+            <div class="box-3">
+                <div class="box-header">
+                    <h1>Completed Tasks</h1>
+                    
+                        <a class="btn right2 btn-red" href="">Clear List</a>
+                    
+                    
+                </div>
+                <div class="box-middle">
+                    <div class="mini-box">
+                        Lorem ipsum dolor sit amet.
+                    </div>
+                    <div class="mini-box">
+                        Lorem ipsum dolor sit amet.
+                    </div>
+                    <div class="mini-box">
+                        Lorem ipsum dolor sit amet.
+                    </div>
+                    <div class="mini-box">
+                        Lorem ipsum dolor sit amet.
+                    </div>
+                    <div class="mini-box">
+                        Lorem ipsum dolor sit amet.
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+
+
+
+    <script src="/todo-list/js/script.js"></script>
+</body>
+</html>
